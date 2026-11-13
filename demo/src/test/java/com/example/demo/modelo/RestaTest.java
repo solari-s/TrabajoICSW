@@ -18,6 +18,11 @@ class RestaTest {
     }
 
     @Test
+    void restarNegativoMenosPositivo() {
+        assertEquals(-8, resta.restar(-5, 3));
+    }
+
+    @Test
     void restarDecimales() {
         assertEquals(2.5, resta.restar(5.0, 2.5), 1e-9);
     }
