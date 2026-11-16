@@ -12,8 +12,4 @@ public class Suma {
     public double sumar(double a, double b) {
         return a + b;
     }
-
-    public int sumarTres(int a, int b, int c) {
-        return a + b + c;
-    }
 }

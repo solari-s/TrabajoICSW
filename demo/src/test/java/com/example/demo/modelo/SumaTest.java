@@ -21,9 +21,4 @@ class SumaTest {
     void sumarDecimales() {
         assertEquals(7.5, suma.sumar(5.0, 2.5), 1e-9);
     }
-
-    @Test
-    void sumarTresEnteros() {
-        assertEquals(15, suma.sumarTres(4, 5, 6));
-    }
 }
